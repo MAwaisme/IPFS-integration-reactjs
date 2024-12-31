@@ -32,7 +32,78 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+input {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 18px;
+  width: 100%;
+  color: #000 !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+textarea {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 18px;
+  width: 100%;
+  color: #000 !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+
+button {
+  color: #FFF;
+  padding: 20px 18px;
+  background: var(--Primary-Color, #724EF7);
+  border: unset;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+
+.addnewproduct {
+  width: 80%;
+  margin: 20px auto;
+}
+
+
+.uplood__div {
+  width: 400px;
+  height: 400px;
+}
+
+
+.uploadbody {
+  border: 1px solid;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.uploadbody img {
+  width: 100%;
+  height: 100%;
 }
