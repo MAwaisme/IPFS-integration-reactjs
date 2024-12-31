@@ -581,7 +581,7 @@ const Upload = () => {
                     {
                         metaHash ?
                             <div className=" phonebutttton">
-                                IPFS metadata Hash:- {metaHash[0]}
+                                IPFS metadata Hash:- {metaHash}
                             </div>
                             : null
                     }
