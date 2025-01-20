@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div>
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <p>
-                        Edit <code>src/App.js</code> and save to reload.
-                    </p>
+        <div className="App">
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo" />
+                <p>
+                    Edit <code>src/App.js</code> and save to reload.
+                </p>
+                <div className='d-flex'>
+                    <Link className="App-link" to="/swap">dApp</Link> &nbsp;
                     <Link
                         className="App-link"
                         // href="https://reactjs.org"
@@ -20,8 +21,8 @@ const Home = () => {
                     >
                         Upload
                     </Link>
-                </header>
-            </div>
+                </div>
+            </header>
         </div>
     )
 }

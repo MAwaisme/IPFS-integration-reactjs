@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import React, { useEffect, useState } from "react";
 import Home from './pages/Home';
 import Upload from './pages/Upload';
+import Dapp from './pages/dApp/Dapp';
+import Staking from './pages/dApp/Staking';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         {/* Login Route */}
         <Route path="/" element={<Home />} />
         <Route path="/upload" element={<Upload />} />
+        <Route path="/swap" element={<Dapp />} />
+        <Route path="/staking" element={<Staking />} />
       </Routes>
     </Router>
   );

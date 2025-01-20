@@ -107,3 +107,17 @@ button {
   width: 100%;
   height: 100%;
 }
+
+
+.dApp-wrapper {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.swap-wapper {
+  margin: 50px auto;
+}
+
+.staking-pages-address {
+  margin: 40px auto;
+}
